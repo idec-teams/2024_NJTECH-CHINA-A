@@ -1,0 +1,2 @@
+# 2024_NJTECH-CHINA-A
+Wiki repository for 2024 iDEC Team: NJTECH-CHINA-A
