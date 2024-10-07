@@ -31,7 +31,7 @@ My name is Yuan Fang, a junior student majoring in pharmaceutical engineering in
 ###Ying Zhang
 Hello！ My name is Ying Zhang, and I'm excited to introduce myself. I’m passionate about conducting experiments related to synthetic biology. I believe in continuous learning and love meeting new people. I’m eager to share ideas and collaborate. In my free time, you can find that I enjoy reading, listening to music, and hiking.
 
-##Model
+##Dry Lab
   ![Image](img/yanzeyu.jpg)
 
 ###Zeyu Yan
