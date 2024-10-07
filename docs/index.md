@@ -13,7 +13,19 @@
 
 ![Image](https://github.com/idec-teams/2024_NJTECH-CHINA-A/blob/main/docs/img/1.png)
 <center>Fig. 1 D-Allose biosensor based on a single plasmid system</center>
+
+## References:
+[1]	FENG Zai-Ping, Gong Hui-Ling, YUAN Hui-Jun et al. Research progress on the properties and bioproduction of the rare sugar D-allulose[J]. Food and Fermentation Industry, 2015, (6):227-233.
+[2]	Boada Y, Vignoni A, Pic6 J, et al. Extended metabolic biosensordesign for dynamic pathway regulation of cell factories. iScience2020 , 23( 7) : 101305.
+[3]	Yu WW, Xu X H, Jin K, e al. Genetically encoded biosensors formicrobial synthetic biology : from conceptual frameworks to practicalapplications. Biotechnology Advances , 2023 , 62 : 108077. 
+
+
+
+
+
+
+
 <!--
 This wiki template was built using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). You are by no means confined to use this template. In fact, you are encouraged to build your own unique **static site** that best suits your project, and you are free to use any framework you like.
 
-Should you decide to use this wiki, however, we have a [tutorial](https://wiki.idec.io/team_wiki/mkdocs/) to walk you through the basics.
+<!--Should you decide to use this wiki, however, we have a [tutorial](https://wiki.idec.io/team_wiki/mkdocs/) to walk you through the basics.
