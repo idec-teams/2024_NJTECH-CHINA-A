@@ -2,7 +2,7 @@
 
 ##Directed evolution of alsR
   Given that the single plasmid biosensors described above were not sufficiently sensitive to D-allose, we initiated directed evolution of the transcription factor alsR in an effort to enhance the biosensor's sensitivity to D-allose. Random mutant libraries were generated using an error-prone PCR method. The alsR gene was randomly mutated and self-selected by the biosensor using a microplate reader (Figure 1). 
-  ![Image](img/r1.png)
+  ![Image](/docs/img/r1.png)
   <center>Figure 1 Schematic of the directed evolution of alsR gene based on random mutation</center>
 
   Approximately 200 mutants displaying green coloration on the LB plates were selected and cultured, and their fluorescence was measured using a microplate reader. Around 10 mutants exhibited higher fluorescence levels. As shown in Figure 6, the M2 mutant demonstrated the highest fluorescence intensity. Gene sequencing was performed to identify its mutation sites, and the results are shown in Figure 3. The alsR repressor protein in M2 mutant had mutations at the following positions: Glu25, Phe73, Thr83, Val93, Asp106, Phe264, Asn279, and Gln281.
