@@ -1,7 +1,6 @@
 #Supplementary material
 <center>Table S1 Strains and plasmids</center>
 
-
 |Strains or plasmids|Description|Resource|
 |:--|:--|:--|
 |Strains| | |
@@ -25,6 +24,7 @@
 |pET28a-rpiB|pET28a derivate, containing rpiB gene from Clostridium thermocellum|This work|
 
 <center>Table S2 Primers used in this study</center>
+
 |Application|Primer name|sequence (5’-3’)|
 |pCDFDuet-1-|pCDF-gj-For|ctgtacaaataactactagcgcagcttaattaac|
 |PalsI-sfGFP|pCDF-gj-Rev|aaacccggtaacgcctctccccgcgcgttggc|
