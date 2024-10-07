@@ -2,8 +2,9 @@
 
 ##1.	PCR of vector and target gene
 
-*Amplify the vector, increasing its amount to make it detectable and analyzable.
+* Amplify the vector, increasing its amount to make it detectable and analyzable.
 <center>Table 1 Reaction system</center>
+
 |Component|Volume|
 |:--|:--|
 |Phanta SE Super-Fidelity DNA Polymerase|1µL | 
@@ -14,6 +15,7 @@
 |Sterilized water|Up to 50µL|
 
 <center>Table 2 Reaction procedure</center>
+
 |Cycle steps|Temperature|Time|Cycles|
 |:--|:--|:--|:--|
 |Predegeneration|98℃|30 sec|  |
@@ -22,14 +24,15 @@
 |Extension|72℃|5 - 10 sec/kb| |
 |Completely stretch|72℃|1 min| |
 
-*Steps:
+* Steps:
 1.	Thaw the components on ice and add each group as needed to dispense the PCR reaction system.
 2.	Gently centrifuge and mix well. 
 3.	Transfer the PCR tubes to the PCR instrument, set the parameters, and start the polymerase chain reaction.
 4.	Return the reagents to 4℃ or 12℃ for storage immediately after us.
 
 ##2.	Error-prone PCR
-*Amplify the vector, increasing its amount to make it detectable and analyzable.
+* Amplify the vector, increasing its amount to make it detectable and analyzable.
+
 |Component|Volume|
 |:--|:--|
 |Taq enzyme|25μl| 
@@ -37,7 +40,8 @@
 |Primer|Forward 2μl Reverse 2μl| 
 |Sterile water|Refill to 50μl| 
 
-*Refer to the table below to set up a random mutation PCR reaction system
+* Refer to the table below to set up a random mutation PCR reaction system
+
 |Reagents|Final concentration|Volume|Volume|
 |:--|:--|:--|:--|
 |Sterile water| |(13.2-x)μl|(33-y)μl|
