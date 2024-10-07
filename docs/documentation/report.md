@@ -111,15 +111,63 @@ Chenxi Lu, Mengyu Li, Jie Zhang, Yuting Lu, Lin Li, Ying Zhang, Yufan Zhou, Yuan
   The protein-ligand docking between alsR and D-allose using AutoDock, the alsR-allose complex structure was obtained. Based on alsR-allose complex, corresponding mutation sites in alsR-muta are replaced using PyMol to obtain the alsR-muta-allose structure. Next, the force field parameters of D-allose in the complex were obtained using CGenFF (https://cgenff.com), and topology files for alsR-allose or alsR-muta-allose complex was constructed. Molecular dynamics (MD) simulations are conducted with Gromacs 2024.2, where alsR-allose or alsR-muta-allose was solvated with SPC water model and centered in a cubic box, with Na+ or Cl- randomly replacing water molecules to balance the charge. Subsequently, energy minimization was carried out, followed by 1 ns (500,000 steps) of NVT equilibration at 300 K, and 1 ns of NPT equilibration (1 bar). Finally, MD simulations were conducted for 100 ns (5,000,000 steps) at 300 K. After MD simulations, periodic boundary conditions were applied, and the structure of the alsR-allose or alsR-muta-allose complex was output every 1 ns for analysis using PyMol, along with RMSD calculations for the backbones of alsR and alsR-muta.
 
  ##References
+ 
  1. K. Izumori, Izumoring: a strategy for bioproduction of all hexoses. Journal of Biotechnology 124, 717-722, (2006).
-    [DOI: http://doi.org/10.1016/j.jbiotec.2006.04.016](http://doi.org/10.1016/j.jbiotec.2006.04.016)
+[DOI: http://doi.org/10.1016/j.jbiotec.2006.04.016](http://doi.org/10.1016/j.jbiotec.2006.04.016)
 
 2. A.D. Mooradian, M. Smith, M. Tokuda, The role of artificial and natural sweeteners in reducing the consumption of table sugar: a narrative review. Clinical Nutrition ESPEN 18, 1-8, (2017). 
-   [DOI: http://doi.org/10.1016/j.clnesp.2017.01.004](http://doi.org/10.1016/j.clnesp.2017.01.004)
+[DOI: http://doi.org/10.1016/j.clnesp.2017.01.004](http://doi.org/10.1016/j.clnesp.2017.01.004)
 
 3. H. Hoshikawa, K. Indo, T. Mori, et al., Enhancement of the radiation effects by D-allose in head and neck cancer cells. Cancer Letters 306, 60-66, (2011).
-   [DOI: https://doi.org/10.1016/j.canlet.2011.02.032](https://doi.org/10.1016/j.canlet.2011.02.032)
+[DOI: https://doi.org/10.1016/j.canlet.2011.02.032](https://doi.org/10.1016/j.canlet.2011.02.032)
 
-4. N. Naha, H.Y. Lee, M.J. Jo, et al., Rare sugar D-allose induces programmed cell death in hormone refractory prostate cancer cells[J]. Apoptosis 13, 1121-1134, (2008). DOI: https://doi.org/10.1007/s10495-008-0232-7
+4. N. Naha, H.Y. Lee, M.J. Jo, et al., Rare sugar D-allose induces programmed cell death in hormone refractory prostate cancer cells[J]. Apoptosis 13, 1121-1134, (2008).
+[DOI: https://doi.org/10.1007/s10495-008-0232-7](https://doi.org/10.1007/s10495-008-0232-7)
+
+5. C. Noguchi, K. Kamitori, A. Hossain, et al., D-Allose inhibits cancer cell growth by reducing GLUT1 expression. The Tohoku Journal of Experimental Medicine 238, 131-141(2016).
+[DOI: https://doi.org/10.1620/tjem.238.131](https://doi.org/10.1620/tjem.238.131)
+
+6. D. Gao, N. Kawai, T. Tamiya, The anti-inflammatory effects of D allose contribute to attenuation of cerebral ischemia–reperfusion injury. Medical Hypotheses 76, 911-913 (2011). 
+[DOI: https://doi.org/10.1016/j.mehy.2011.03.007](https://doi.org/10.1016/j.mehy.2011.03.007)
+
+7. T. Huang, D. Gao, Y. Hei, et al., D-Allose protects the blood brain barrier through PPAR gamma-mediated anti-inflammatory pathway in the mice model of ischemia reperfusion injury. Brain Research 1642, 478-486, (2016). 
+[DOI: https://doi.org/10.1016/j.brainres.2016.04.038](https://doi.org/10.1016/j.brainres.2016.04.038)
+
+8. H. Sakoguchi, A. Yoshihara, K. Izumori, et al., Screening of biologically active monosaccharides: growth inhibitory effects of D-allose, D-talose, and L-idose against the nematode Caenorhabditis elegans. Bioscience, Biotechnology, and Biochemistry 80, 1058-1061(2016).
+[DOI: https://doi.org/10.1007/s00253-018-8916-6]( https://doi.org/10.1080/09168451.2016.1146069)
+
+9. Z. Chen, J. Chen, W. Zhang, et al., Recent research on the physiological functions, applications, and biotechnological production of D-allose. Applied Microbiology and Biotechnology 102, 4269–4278 (2018).
+[DOI: https://doi.org/10.1007/s00253-018-8916-6](DOI: https://doi.org/10.1007/s00253-018-8916-6)
+
+10. Y.R. Lim, D-K Oh, Microbial metabolism and biotechnological production of D-allose, Applied Microbiology and Biotechnology 91, 229-235, (2011). 
+[DOI: http://doi.org/10.1007/s00253-011-3370-8](http://doi.org/10.1007/s00253-011-3370-8)
+
+11. N. Gupta, V. Renugopalakrishnan, D. Liepmann, et al., Cell-based biosensors: recent trends, challenges and future perspectives. Biosensors and Bioelectronics 141, 11143, (2019).
+[DOI: https://doi.org/10.1016/j.bios.2019.111435](https://doi.org/10.1016/j.bios.2019.111435)
+
+12. Y. Boada, A. Vignoni, J. Pico, et al., Extended metabolic biosensor design for dynamic pathway regulation of cell factories. iScience 23, 101305, (2020).
+[DOI: https://doi.org/10.1016/j.isci.2020.101305](https://doi.org/10.1016/j.isci.2020.101305)
+
+13. W.W. Yu, X. H. Xu, K. Jin, et al., Genetically encoded biosensors for microbial synthetic biology: from conceptual frameworks to practical applications. Biotechnology Advances 62, 108077(2023).
+[DOI: https://doi.org/10.1016/j.biotechadv.2022.108077](https://doi.org/10.1016/j.biotechadv.2022.108077)
+
+14. T.S. Poulsen, Y.Y. Chang, B. Hovejensen, D-allose catabolism of Escherichia coli: Involvement of alsI and regulation of als regulon expression by allose and ribose, Journal of Bacteriology, 181, 7126-7130(1999).
+[DOI: http://doi.org/10.1128/JB.181.22.7126-7130.1999](http://doi.org/10.1128/JB.181.22.7126-7130.1999)
+
+15. K. Morimoto, T. Suzuki, H. Ikeda, One-pot multi-step transformation of D-allose from d-fructose using a co-immobilized biocatalytic system, Journal of General and Applied Microbiology, 68, 1-9, (2022).
+[DOI: http://doi.org/10.1128/JB.181.22.7126-7130.1999](http://doi.org/10.1128/JB.181.22.7126-7130.1999)
+
+##Acknowledgments
+    We are grateful to the support of Nanjing Tech University. We sincerely thank associate professor Wei Liu and professor Ling Jiang for providing materials and their advice.
+
+##Author Contributions
+    M.Y.L. conceived and designed the project with conceptual and practical guidance from W.L. Y.S., L.Y.Z., L.J.; and C.X.L., M.Y.L., Y.T.L., L.L., Y.Z., Y.F., Y.C., performed experiments with support from R.L., L.Y.; and C.X.L., M.Y.L. wrote the article with contributions from Y.F.Z., J.Q.Z.; and J.Z., G.R.M., Y.Y.W. Z.Y.Y. accounted for the computational experiments. W.L. and L.J. agree to serve as corresponding authors and ensures communication.
+
+##Competing interests
+    The authors declare no competing interests.
+
+##Supplementary information
+    Supplementary information is available for this paper in the online version.
+
 
 
