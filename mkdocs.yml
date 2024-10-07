@@ -8,6 +8,7 @@ theme:
   palette:
     primary: rgb(68, 82, 150)
     accent: rgb(157, 168, 223)
+    background: rgb(157, 168, 223)
 
   features:
     - navigation.sections
