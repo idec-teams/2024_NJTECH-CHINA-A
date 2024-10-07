@@ -11,7 +11,7 @@
   Genetically encoded whole-cell biosensors are capable of sensing changes in metabolite concentrations inside and outside the cell as well as fluctuations in the external environment, generating measurable signal outputs or regulating gene expression levels in pathways.
   In this study, we developed a D-allose detection biosensor system utilizing the specific D-allose-responsive transcriptional regulator alsR in Escherichia coli to dynamically monitor D-allose levels. Further directed evolution of alsR yielded a biosensor with enhanced sensitivity, thereby providing a potential selection tool for the directed evolution of enzymes related to D-allose synthesis.
 
-![Image](../docs/img/1.png)
+![Image](img/1.png)
 <center>Fig. 1 D-Allose biosensor based on a single plasmid system</center>
 
 ## References:
