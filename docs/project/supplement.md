@@ -24,3 +24,55 @@
 |pCDFDuet-1-alsR*-P-sfGFP|pCDFDuet1 derivate, containing mutant alsR gene of M2 from directed evolution, bifunctional promoter between alsR gene and rpiB gene in *E. coli* BL21(DE3) and sfGFP gene|This work|
 |pET28a-rpiB|pET28a derivate, containing rpiB gene from Clostridium thermocellum|This work|
 
+<center>Table S2 Primers used in this study</center>
+|Application|Primer name|sequence (5’-3’)|
+|pCDFDuet-1-|pCDF-gj-For|ctgtacaaataactactagcgcagcttaattaac|
+|PalsI-sfGFP|pCDF-gj-Rev|aaacccggtaacgcctctccccgcgcgttggc|
+| |PalsI-For|gcggggagaggcgttaccgggtttgagtaacc|
+| |PalsI-Rev|ctttacgcatatcacagccaaatgcaatct|
+| |sfGFP-For|tttggctgtgatatgcgtaaaggtgaagaact|
+| |sfGFP-Rev|gcgctagtagttatttgtacagttcgtccatac|
+|:--|:--|:--|
+|pETDuet-1-|pETDuet1-gj-For|gcgctgaaataactactagcgcagcttaattaac|
+|nativeP-alsR|pETDuet1-gj-Rev|cggggaagatgacgcctctccccgcgcgttggc|
+| |PalsR-For|cggggagaggcgtcatcttccccgtccgtgcaaaac|
+| |alsR-Rev|tgcgctagtagttatttcagcgcgcctggtgag|
+|:--|:--|:--|
+|pCDFDuet-1-|pCDF-gj-For|ctgtacaaataactactagcgcagcttaattaac|
+|alsR-P-sfGFP|pCDF-gj-Rev|caggcgcgctgaaataagcctctccccgcgcgttggc|
+| |PalsR-For|ctttacgcatatcacagccaaatgcaatct|
+| |alsR-Rev|gcgcggggagaggcttatttcagcgcgcctggtgag|
+| |sfGFP-For|tttggctgtgatatgcgtaaaggtgaagaact|
+| |sfGFP-Rev|gcgctagtagttatttgtacagttcgtccatac|
+|:--|:--|:--|
+| pCDFDuet-1-|pCDF-gj-For|ctgtacaaataactactagcgcagcttaattaac|
+|alsR*-P-sfGFP |pCDF-gj-Rev|caggcgcgctgaaataagcctctccccgcgcgttggc|
+| |PalsR-For|ctttacgcatatcacagccaaatgcaatct|
+| |alsR-Rev|gcgcggggagaggcttatttcagcgcgcctggtgag|
+| |sfGFP-For|tttggctgtgatatgcgtaaaggtgaagaact|
+| |sfGFP-Rev|gcgctagtagttatttgtacagttcgtccatac|
+|:--|:--|:--|
+|pET28a-rpiB |pET28a-For|gaaatactccaagcaccaccaccaccaccactgag|
+| |pET28a-Rev|accgatcttcatgcgacccatttgctgtccaccag|
+| |rpiB-For|aaatgggtcgcatgaagatcggtatcggtagc|
+| |rpiB-Rev|tggtggtggtgcttggagtatttcttctcgatttc|
+|:--|:--|:--|
+|Error-Prone PCR of alsR|alsR-EP-For|gcgatggcggaattacctttttctta|
+| |alsR-EP-Rev|cttcaattcaaggacaagagaacgtgatg|
+| |pCDF-gj-For|ctgactggctcatcacgttctcttgtccttgaattg|
+| |pCDF-gj-Rev|ttccgccatcgcattcattaatgcagctggcac|
+
+##1.pCDFDuet-1-Palsl-sfGFP Plasmid map
+
+ ![Image](supplementimg/s1.png)
+
+##2.pETDuet-1-nativeP-alsR Plasmid map
+
+ ![Image](supplementimg/s2.png)
+
+##3.pCDFDuet-1-alsR-P-sfGFP Plasmid map
+
+ ![Image](supplementimg/s3.png)
+
+
+ 
