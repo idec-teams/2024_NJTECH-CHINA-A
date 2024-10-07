@@ -16,7 +16,9 @@
 
 ## References:
 [1]	FENG Zai-Ping, Gong Hui-Ling, YUAN Hui-Jun et al. Research progress on the properties and bioproduction of the rare sugar D-allulose[J]. Food and Fermentation Industry, 2015, (6):227-233.
+
 [2]	Boada Y, Vignoni A, Pic6 J, et al. Extended metabolic biosensordesign for dynamic pathway regulation of cell factories. iScience2020 , 23( 7) : 101305.
+
 [3]	Yu WW, Xu X H, Jin K, e al. Genetically encoded biosensors formicrobial synthetic biology : from conceptual frameworks to practicalapplications. Biotechnology Advances , 2023 , 62 : 108077. 
 
 
