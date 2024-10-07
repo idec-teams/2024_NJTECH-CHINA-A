@@ -26,6 +26,7 @@
 <center>Table S2 Primers used in this study</center>
 
 |Application|Primer name|sequence (5’-3’)|
+|:--|:--|:--|
 |pCDFDuet-1-|pCDF-gj-For|ctgtacaaataactactagcgcagcttaattaac|
 |PalsI-sfGFP|pCDF-gj-Rev|aaacccggtaacgcctctccccgcgcgttggc|
 | |PalsI-For|gcggggagaggcgttaccgggtttgagtaacc|
