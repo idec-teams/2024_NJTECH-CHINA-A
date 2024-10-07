@@ -57,10 +57,10 @@ Hello everyone, I am Yufan Zhou, the leader of the HP group of our team. In this
 Hello, I'm Meng Gongrui, and my major is food science and engineering. The days of working on the iGEM project are very interesting, and we look forward to more and more partners joining us.
 
  ![Image](img/longrui.jpg)
-###Gongrui Meng
+###Rui Long
 hello everyone I am Rui Long a master s student in Professor Jiang Ling s research group at Nanjing University of Technology In my free time I enjoy playing basketball I mainly participate in biotechnology and synthetic biology experiments Through the iGEM project we hope to contribute to the sustainable development of social health and the environment
 
- ![Image](img/longrui.jpg)
+ ![Image](img/yangli.jpg)
 ###Li Yang
 Greetings, everyone！ I'm Li Yang, and I come from Prof.Ling Jiang's team at Nanjing Tech Univercity. Our research focuses on rare sugar biosynthesis research, dedicated to developing new biotechnologies and exploring the forefront of sugar science. It is my great honor to introduce the progress of our project and communicate with you.
 
