@@ -159,13 +159,13 @@ Chenxi Lu, Mengyu Li, Jie Zhang, Yuting Lu, Lin Li, Ying Zhang, Yufan Zhou, Yuan
 [DOI: http://doi.org/10.1128/JB.181.22.7126-7130.1999](http://doi.org/10.1128/JB.181.22.7126-7130.1999)
 
 ##Acknowledgments
-    We are grateful to the support of Nanjing Tech University. We sincerely thank associate professor Wei Liu and professor Ling Jiang for providing materials and their advice.
+  We are grateful to the support of Nanjing Tech University. We sincerely thank associate professor Wei Liu and professor Ling Jiang for providing materials and their advice.
 
 ##Author Contributions
-    M.Y.L. conceived and designed the project with conceptual and practical guidance from W.L. Y.S., L.Y.Z., L.J.; and C.X.L., M.Y.L., Y.T.L., L.L., Y.Z., Y.F., Y.C., performed experiments with support from R.L., L.Y.; and C.X.L., M.Y.L. wrote the article with contributions from Y.F.Z., J.Q.Z.; and J.Z., G.R.M., Y.Y.W. Z.Y.Y. accounted for the computational experiments. W.L. and L.J. agree to serve as corresponding authors and ensures communication.
+  M.Y.L. conceived and designed the project with conceptual and practical guidance from W.L. Y.S., L.Y.Z., L.J.; and C.X.L., M.Y.L., Y.T.L., L.L., Y.Z., Y.F., Y.C., performed experiments with support from R.L., L.Y.; and C.X.L., M.Y.L. wrote the article with contributions from Y.F.Z., J.Q.Z.; and J.Z., G.R.M., Y.Y.W. Z.Y.Y. accounted for the computational experiments. W.L. and L.J. agree to serve as corresponding authors and ensures communication.
 
 ##Competing interests
-    The authors declare no competing interests.
+  The authors declare no competing interests.
 
 ##Supplementary information
     Supplementary information is available for this paper in the online version.
