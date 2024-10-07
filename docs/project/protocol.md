@@ -25,6 +25,7 @@
 |Completely stretch|72℃|1 min| |
 
 * Steps:
+
 1.	Thaw the components on ice and add each group as needed to dispense the PCR reaction system.
 2.	Gently centrifuge and mix well. 
 3.	Transfer the PCR tubes to the PCR instrument, set the parameters, and start the polymerase chain reaction.
@@ -92,6 +93,7 @@ After nucleic acid gel electrophoresis was verified, the bands were observed und
 *	Construct plasmid using the target gene and the vector using Gibson assembly.
   
 <center>Table 3 Plasmid ligation system</center>
+
 |Component|Volume|
 |:--|:--|
 |Sterilized water|Up to 10µL| 
