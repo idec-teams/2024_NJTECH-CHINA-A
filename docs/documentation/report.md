@@ -111,7 +111,7 @@ Chenxi Lu, Mengyu Li, Jie Zhang, Yuting Lu, Lin Li, Ying Zhang, Yufan Zhou, Yuan
 ###*Protein-ligand docking and molecular dynamics simulations*
   The protein-ligand docking between alsR and D-allose using AutoDock, the alsR-allose complex structure was obtained. Based on alsR-allose complex, corresponding mutation sites in alsR-muta are replaced using PyMol to obtain the alsR-muta-allose structure. Next, the force field parameters of D-allose in the complex were obtained using CGenFF (https://cgenff.com), and topology files for alsR-allose or alsR-muta-allose complex was constructed. Molecular dynamics (MD) simulations are conducted with Gromacs 2024.2, where alsR-allose or alsR-muta-allose was solvated with SPC water model and centered in a cubic box, with Na+ or Cl- randomly replacing water molecules to balance the charge. Subsequently, energy minimization was carried out, followed by 1 ns (500,000 steps) of NVT equilibration at 300 K, and 1 ns of NPT equilibration (1 bar). Finally, MD simulations were conducted for 100 ns (5,000,000 steps) at 300 K. After MD simulations, periodic boundary conditions were applied, and the structure of the alsR-allose or alsR-muta-allose complex was output every 1 ns for analysis using PyMol, along with RMSD calculations for the backbones of alsR and alsR-muta.
 
- ##References
+##References
  
 1. K. Izumori, Izumoring: a strategy for bioproduction of all hexoses. Journal of Biotechnology 124, 717-722, (2006).  
 [DOI: http://doi.org/10.1016/j.jbiotec.2006.04.016](http://doi.org/10.1016/j.jbiotec.2006.04.016)
