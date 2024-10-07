@@ -40,13 +40,13 @@ copyright: Copyright &copy; 2024 iDEC. CC-BY-4.0 | The International Directed Ev
 
 nav:
   - Overview: index.md
-  - Team: team.md
   - Project:
       - Description: project/description.md
       - Design: project/design.md
       - Results: project/results.md
       - Supplement: project/supplement.md
   - Documentation:
-      - Protocols: documentation/protocols.md
       - Lab notebook: documentation/notebook.md
-  - Some useful features: useful_features.md
+      - Download Report: documentation/report.md
+  - Team: team.md  
+
