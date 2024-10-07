@@ -128,15 +128,16 @@ After nucleic acid gel electrophoresis was verified, the bands were observed und
 *  Steps:
 
 (The following procedures involving bacteria should be conducted in a biosafety cabinet)
-1. Add10μl of the recombinant plasmid DNA to100 μl of competent E. coli cells, and place it on ice for 30 minutes.
-2. After 30 minutes on ice, subject the cells to a heat shock at 42°C for 90 seconds.
+
+1.   Add10μl of the recombinant plasmid DNA to100 μl of competent E. coli cells, and place it on ice for 30 minutes.
+2.   After 30 minutes on ice, subject the cells to a heat shock at 42°C for 90 seconds.
 Then immediately return the cells to ice for 2-3 minutes.
-3. Add 800 µL of antibiotic-free LB liquid medium to the plasmid-added sensory state and incubate for 1 h at 37°C in a shaker
-4. Centrifuge the cells at a low speed to pellet the cells.
-5. Discard 800 μl of  the supernatant
-6. Resuspend the cell pellet in the remaining 100 μl of medium by pipetting up and down.
-7. Spread the mixture evenly onto LB agar plates containing antibiotics using a spreader.
-8. Incubate the plates overnight at 37°C.
+3.   Add 800 µL of antibiotic-free LB liquid medium to the plasmid-added sensory state and incubate for 1 h at 37°C in a shaker
+4.   Centrifuge the cells at a low speed to pellet the cells.
+5.   Discard 800 μl of  the supernatant
+6.   Resuspend the cell pellet in the remaining 100 μl of medium by pipetting up and down.
+7.   Spread the mixture evenly onto LB agar plates containing antibiotics using a spreader.
+8.   Incubate the plates overnight at 37°C.
 
 ##7.	Colony PCR and Verification of E. coli Transformation
 
