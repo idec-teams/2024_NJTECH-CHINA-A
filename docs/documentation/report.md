@@ -1,6 +1,6 @@
 ##Directed evolution of the alsR transcription factor to construct a D-allose biosensor
 
-Chenxi Lu, Mengyu Li, Jie Zhang, Yuting Lu, Lin Li, Ying Zhang, Yufan Zhou, Yuan Fang, Yi Cao, Yongye Wu, Jiaqi Zhang, Zeyu Yan, Gongrui Meng, Rui Long, Li Yang, Wei Liu*, Yang Sun, Liying Zhu, Ling Jiang*
+Chenxi Lu, Mengyu Li, Jie Zhang, Yuting Lu, Lin Li, Ying Zhang, Yufan Zhou, Yuan Fang, Yi Cao, Yongye Wu, Jiaqi Zhang, Zeyu Yan, Gongrui Meng, Rui Long, Li Yang, Wei Liu*, Yang Sun, Liying Zhu, Ling Jiang*\
 
 *-Corresponding authors contributed equally
 
@@ -10,6 +10,7 @@ Chenxi Lu, Mengyu Li, Jie Zhang, Yuting Lu, Lin Li, Ying Zhang, Yufan Zhou, Yuan
 **Key words**: biosensor, D-allose, transcriptional factor
 
 ##Introduction
+
   The International Society of Rare Sugars (ISRS) defines the eponymous "rare sugars" whose derivatives are monosaccharides that are nearly nonexistent in nature. Despite their extremely low natural abundance, rare sugars exhibit various known biological functions and possess significant developmental potential in the synthesis, cosmetics, pharmaceuticals, food, and flavor industries[1]. D-allose is an important rare sugar, 80% sweeter than sucrose, and it is a super-low-calorie and ideal substitute for table sugar[2]. Although it is rarely found in nature, D-allose has garnered considerable research interest in recent years due to its numerous pharmacological activities, including anticancer, antitumor, anti-inflammatory, antioxidant, antihypertensive, cryoprotective, and immunosuppressive properties. D-allose inhibits the proliferation of cancer cells to prevent carcinogenesis, and in combination with radiotherapy, it has been proven to be an effective cancer treatment[3-5]. As an antioxidant, it can prevent ROS-mediated oxidative damage and reduce the generation of free radicals, thereby delaying deterioration. D-allose also protects against ischemia-reperfusion injury, decreases neutrophil production, and reduces platelet count by acting as an anti-inflammatory agent[6-7]. Furthermore, D-allose exhibits cryoprotective functions during freezing that are comparable to those of trehalose, and as an immunosuppressant, it can enhance the survival rate of allogeneic transplants and reduce tissue damage[8]. Therefore, D-allose has emerged as a novel functional food nutrient enhancer[9]. Unfortunately, most rare sugars, including D-allose, are prohibitively expensive, and their limited natural availability may impede their industrial potential.
 
   The rapid advancement of synthetic biology has facilitated the biosynthesis of D-allose. However, challenges remain, including the low activity and stability of the enzymes, as well as the low productivity and yield of strains involved in D-allose synthesis[10]. To enhance the performance of enzymes for D-allose production, directed evolution presents a promising strategy. However, there is currently a lack of high-throughput selection methods specifically for D-allose. Genetically encoded biosensors offer the capability to detect fluctuations in metabolite concentrations both intracellularly and extracellularly, as well as in the surrounding environment[11]. These biosensors can generate measurable signal outputs or modulate gene expression levels within the metabolic pathway, providing a cost-effective, straightforward, and reproducible approach to monitoring and optimizing biosynthetic processes[12-13].  
@@ -40,7 +41,7 @@ Chenxi Lu, Mengyu Li, Jie Zhang, Yuting Lu, Lin Li, Ying Zhang, Yufan Zhou, Yuan
 ![Image](reportimg/re4.png)
 <center>Figure 4 Effect of different concentrations of D-allulose on the fluorescence intensity of E. coli BL21(DE3)/pCDFDuet-1-alsR-P-sfGFP</center>  
 
-##*Directed evolution of alsR*
+###*Directed evolution of alsR*
   Given that the single plasmid biosensors described above were not sufficiently sensitive to D-allose, we initiated directed evolution of the transcription factor alsR in an effort to enhance the biosensor's sensitivity to D-allose. Random mutant libraries were generated using an error-prone PCR method. The alsR gene was randomly mutated and self-selected by the biosensor using a microplate reader (Figure 5). 
 
 ![Image](reportimg/re5.png)
@@ -64,7 +65,7 @@ Chenxi Lu, Mengyu Li, Jie Zhang, Yuting Lu, Lin Li, Ying Zhang, Yufan Zhou, Yuan
 ![Image](reportimg/re8.png)
 <center>Figure 8 (a) The molecular docking of alsR and alsR-muta with D-allose. (b) the 100 ns molecular dynamics simulations of alsR and alsR-muta at 300 K. The spatial position of D-allose within alsR (c) and alsR-muta (d) at different time points during the 100 ns simulation.</center>  
 
-##*Specificity analysis of the D-allose biosensor*
+###*Specificity analysis of the D-allose biosensor*
   Currently, the enzymatic synthesis of D-allose primarily involves a three-step biotransformation reaction. The first step entails the conversion of D-glucose to D-fructose, catalyzed by xylose isomerase. In the second step, D-tagatose-3-episomerase or D-allulose-3-episomerase facilitates the isomerization at the C3 position of D-fructose to produce D-allulose. Finally, D-allulose is converted to D-allose under the catalysis of aldose isomerase[15].
   
   To assess the specificity of the biosensor, we investigated the effects of different concentrations of glucose, fructose, and D-allulose on the fluorescence intensity of the biosensor. The results, shown in Figure 9, indicated that the fluorescence changes were minimal at varying concentrations of glucose, fructose, and D-allulose. As for D-allose, the fluorescence intensity exhibited a dose-dependent effect with increasing D-allose concentration (0-20 mM). This suggests that the constructed biosensor exhibits good specificity for D-allose.
@@ -72,7 +73,7 @@ Chenxi Lu, Mengyu Li, Jie Zhang, Yuting Lu, Lin Li, Ying Zhang, Yufan Zhou, Yuan
 ![Image](reportimg/re9.png)
 <center>Figure 9 Effect of different concentrations of D-allulose, D-allose, glucose and fructose on the fluorescence intensity of the biosensor</center>  
 
-##*Application of intracellular D-allose synthesis monitoring*
+###*Application of intracellular D-allose synthesis monitoring*
   To evaluate the practical application of the biosensor, we selected the intracellular reaction catalyzed by ribose 5-phosphate isomerase (RpiB) for the synthesis of D-allose from allulose as a case study. We constructed an RpiB-expressing strain, E. coli BL21(DE3)/pET28a-rpiB, and introduced the mutated biosensor plasmid pCDFDuet-1-alsR*-P-sfGFP. By adding different concentrations of allulose, we assessed the fluorescence response of the biosensor. As shown in Figure 10, the fluorescence signal readings intensified with increasing concentrations of D-allulose (0-250 mM) in strains containing the biosensor, demonstrating its potential as a high-throughput selection tool for the directed evolution of enzymes associated with D-allose synthesis.
 
 ![Image](reportimg/re10.png)
@@ -112,49 +113,49 @@ Chenxi Lu, Mengyu Li, Jie Zhang, Yuting Lu, Lin Li, Ying Zhang, Yufan Zhou, Yuan
 
  ##References
  
- 1. K. Izumori, Izumoring: a strategy for bioproduction of all hexoses. Journal of Biotechnology 124, 717-722, (2006).
+1. K. Izumori, Izumoring: a strategy for bioproduction of all hexoses. Journal of Biotechnology 124, 717-722, (2006).  
 [DOI: http://doi.org/10.1016/j.jbiotec.2006.04.016](http://doi.org/10.1016/j.jbiotec.2006.04.016)
 
-2. A.D. Mooradian, M. Smith, M. Tokuda, The role of artificial and natural sweeteners in reducing the consumption of table sugar: a narrative review. Clinical Nutrition ESPEN 18, 1-8, (2017). 
+2. A.D. Mooradian, M. Smith, M. Tokuda, The role of artificial and natural sweeteners in reducing the consumption of table sugar: a narrative review. Clinical Nutrition ESPEN 18, 1-8, (2017).  
 [DOI: http://doi.org/10.1016/j.clnesp.2017.01.004](http://doi.org/10.1016/j.clnesp.2017.01.004)
 
-3. H. Hoshikawa, K. Indo, T. Mori, et al., Enhancement of the radiation effects by D-allose in head and neck cancer cells. Cancer Letters 306, 60-66, (2011).
+4. H. Hoshikawa, K. Indo, T. Mori, et al., Enhancement of the radiation effects by D-allose in head and neck cancer cells. Cancer Letters 306, 60-66, (2011).  
 [DOI: https://doi.org/10.1016/j.canlet.2011.02.032](https://doi.org/10.1016/j.canlet.2011.02.032)
 
-4. N. Naha, H.Y. Lee, M.J. Jo, et al., Rare sugar D-allose induces programmed cell death in hormone refractory prostate cancer cells[J]. Apoptosis 13, 1121-1134, (2008).
+5. N. Naha, H.Y. Lee, M.J. Jo, et al., Rare sugar D-allose induces programmed cell death in hormone refractory prostate cancer cells[J]. Apoptosis 13, 1121-1134, (2008).  
 [DOI: https://doi.org/10.1007/s10495-008-0232-7](https://doi.org/10.1007/s10495-008-0232-7)
 
-5. C. Noguchi, K. Kamitori, A. Hossain, et al., D-Allose inhibits cancer cell growth by reducing GLUT1 expression. The Tohoku Journal of Experimental Medicine 238, 131-141(2016).
+6. C. Noguchi, K. Kamitori, A. Hossain, et al., D-Allose inhibits cancer cell growth by reducing GLUT1 expression. The Tohoku Journal of Experimental Medicine 238, 131-141(2016).  
 [DOI: https://doi.org/10.1620/tjem.238.131](https://doi.org/10.1620/tjem.238.131)
 
-6. D. Gao, N. Kawai, T. Tamiya, The anti-inflammatory effects of D allose contribute to attenuation of cerebral ischemia–reperfusion injury. Medical Hypotheses 76, 911-913 (2011). 
+7. D. Gao, N. Kawai, T. Tamiya, The anti-inflammatory effects of D allose contribute to attenuation of cerebral ischemia–reperfusion injury. Medical Hypotheses 76, 911-913 (2011).   
 [DOI: https://doi.org/10.1016/j.mehy.2011.03.007](https://doi.org/10.1016/j.mehy.2011.03.007)
 
-7. T. Huang, D. Gao, Y. Hei, et al., D-Allose protects the blood brain barrier through PPAR gamma-mediated anti-inflammatory pathway in the mice model of ischemia reperfusion injury. Brain Research 1642, 478-486, (2016). 
+8. T. Huang, D. Gao, Y. Hei, et al., D-Allose protects the blood brain barrier through PPAR gamma-mediated anti-inflammatory pathway in the mice model of ischemia reperfusion injury. Brain Research 1642, 478-486, (2016).   
 [DOI: https://doi.org/10.1016/j.brainres.2016.04.038](https://doi.org/10.1016/j.brainres.2016.04.038)
 
-8. H. Sakoguchi, A. Yoshihara, K. Izumori, et al., Screening of biologically active monosaccharides: growth inhibitory effects of D-allose, D-talose, and L-idose against the nematode Caenorhabditis elegans. Bioscience, Biotechnology, and Biochemistry 80, 1058-1061(2016).
-[DOI: https://doi.org/10.1007/s00253-018-8916-6]( https://doi.org/10.1080/09168451.2016.1146069)
+9. H. Sakoguchi, A. Yoshihara, K. Izumori, et al., Screening of biologically active monosaccharides: growth inhibitory effects of D-allose, D-talose, and L-idose against the nematode Caenorhabditis elegans. Bioscience, Biotechnology, and Biochemistry 80, 1058-1061(2016).  
+[DOI: https://doi.org/10.1007/s00253-018-8916-6](https://doi.org/10.1080/09168451.2016.1146069)
 
-9. Z. Chen, J. Chen, W. Zhang, et al., Recent research on the physiological functions, applications, and biotechnological production of D-allose. Applied Microbiology and Biotechnology 102, 4269–4278 (2018).
-[DOI: https://doi.org/10.1007/s00253-018-8916-6](DOI: https://doi.org/10.1007/s00253-018-8916-6)
+10. Z. Chen, J. Chen, W. Zhang, et al., Recent research on the physiological functions, applications, and biotechnological production of D-allose. Applied Microbiology and Biotechnology 102, 4269–4278 (2018).  
+[DOI: https://doi.org/10.1007/s00253-018-8916-6](https://doi.org/10.1007/s00253-018-8916-6)
 
-10. Y.R. Lim, D-K Oh, Microbial metabolism and biotechnological production of D-allose, Applied Microbiology and Biotechnology 91, 229-235, (2011). 
+11. Y.R. Lim, D-K Oh, Microbial metabolism and biotechnological production of D-allose, Applied Microbiology and Biotechnology 91, 229-235, (2011). 
 [DOI: http://doi.org/10.1007/s00253-011-3370-8](http://doi.org/10.1007/s00253-011-3370-8)
 
-11. N. Gupta, V. Renugopalakrishnan, D. Liepmann, et al., Cell-based biosensors: recent trends, challenges and future perspectives. Biosensors and Bioelectronics 141, 11143, (2019).
+12. N. Gupta, V. Renugopalakrishnan, D. Liepmann, et al., Cell-based biosensors: recent trends, challenges and future perspectives. Biosensors and Bioelectronics 141, 11143, (2019).  
 [DOI: https://doi.org/10.1016/j.bios.2019.111435](https://doi.org/10.1016/j.bios.2019.111435)
 
-12. Y. Boada, A. Vignoni, J. Pico, et al., Extended metabolic biosensor design for dynamic pathway regulation of cell factories. iScience 23, 101305, (2020).
+13. Y. Boada, A. Vignoni, J. Pico, et al., Extended metabolic biosensor design for dynamic pathway regulation of cell factories. iScience 23, 101305, (2020).  
 [DOI: https://doi.org/10.1016/j.isci.2020.101305](https://doi.org/10.1016/j.isci.2020.101305)
 
-13. W.W. Yu, X. H. Xu, K. Jin, et al., Genetically encoded biosensors for microbial synthetic biology: from conceptual frameworks to practical applications. Biotechnology Advances 62, 108077(2023).
+14. W.W. Yu, X. H. Xu, K. Jin, et al., Genetically encoded biosensors for microbial synthetic biology: from conceptual frameworks to practical applications. Biotechnology Advances 62, 108077(2023).  
 [DOI: https://doi.org/10.1016/j.biotechadv.2022.108077](https://doi.org/10.1016/j.biotechadv.2022.108077)
 
-14. T.S. Poulsen, Y.Y. Chang, B. Hovejensen, D-allose catabolism of Escherichia coli: Involvement of alsI and regulation of als regulon expression by allose and ribose, Journal of Bacteriology, 181, 7126-7130(1999).
+15. T.S. Poulsen, Y.Y. Chang, B. Hovejensen, D-allose catabolism of Escherichia coli: Involvement of alsI and regulation of als regulon expression by allose and ribose, Journal of Bacteriology, 181, 7126-7130(1999).  
 [DOI: http://doi.org/10.1128/JB.181.22.7126-7130.1999](http://doi.org/10.1128/JB.181.22.7126-7130.1999)
 
-15. K. Morimoto, T. Suzuki, H. Ikeda, One-pot multi-step transformation of D-allose from d-fructose using a co-immobilized biocatalytic system, Journal of General and Applied Microbiology, 68, 1-9, (2022).
+16. K. Morimoto, T. Suzuki, H. Ikeda, One-pot multi-step transformation of D-allose from d-fructose using a co-immobilized biocatalytic system, Journal of General and Applied Microbiology, 68, 1-9, (2022).  
 [DOI: http://doi.org/10.1128/JB.181.22.7126-7130.1999](http://doi.org/10.1128/JB.181.22.7126-7130.1999)
 
 ##Acknowledgments
