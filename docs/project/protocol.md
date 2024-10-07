@@ -154,9 +154,10 @@ Then immediately return the cells to ice for 2-3 minutes.
 
 *	Steps:
 
-(The following procedures involving bacteria should be conducted in a biosafety cabinet)  
-1.Using a sterile toothpick or pipette tip, pick a small amount of bacterial colony and mix it with the PCR reaction mixture.  
-2.Place the PCR tubes in a thermal cycler and run the program:
+(The following procedures involving bacteria should be conducted in a biosafety cabinet)
+
+1. Using a sterile toothpick or pipette tip, pick a small amount of bacterial colony and mix it with the PCR reaction mixture.  
+2. Place the PCR tubes in a thermal cycler and run the program:
 
 <center> Table 6 Reaction procedure</center>
 
@@ -168,7 +169,7 @@ Then immediately return the cells to ice for 2-3 minutes.
 |Extension|72℃|15 - 30 sec/kb| |
 |Completely stretch|72℃|5 min| |
 
-3.	Conduct agarose gel electrophoresis on the PCR products, and check if the result is as expected 
+3. Conduct agarose gel electrophoresis on the PCR products, and check if the result is as expected 
 
 ##8.	Plasmid extraction
 
@@ -179,11 +180,11 @@ Then immediately return the cells to ice for 2-3 minutes.
 2. Add 250 μL of Buffer P1 (Buffer P1 with RNase A added) to the centrifuge tube containing the bacterial pellet. Mix thoroughly using a pipette or vortex oscillation. 
 3. Add 250 μL of Buffer P2 to the mixture from step 2. Gently invert the tube 8-10 times to ensure thorough lysis of the bacterial cells until a clear solution is formed. 
 4. Add 350 μL of Buffer P3 to the mixture from step 3. Immediately invert the tube gently 8-10 times to thoroughly neutralize the solution with Buffer P2. A white flocculent precipitate should appear. Centrifuge at 12000 rpm (13,400 × g) for 10 min.
- 5. Place the FastPure DNA Mini Columns in a 2 mL Collection Tube. Carefully transfer the supernatant from step 4 to the column using a pipette, being careful not to aspirate the precipitate. Centrifuge at 12000 rpm (13,400 × g) for 30-60 sec. Discard the waste liquid from the collection tube and return the column to the collection tube.
- 6. Add 500 μL of Buffer PW1 to the column. Centrifuge at 12000 rpm (13,400 × g) for 30-60 sec. Discard the waste liquid and return the column to the collection tube. 
+5. Place the FastPure DNA Mini Columns in a 2 mL Collection Tube. Carefully transfer the supernatant from step 4 to the column using a pipette, being careful not to aspirate the precipitate. Centrifuge at 12000 rpm (13,400 × g) for 30-60 sec. Discard the waste liquid from the collection tube and return the column to the collection tube.
+6. Add 500 μL of Buffer PW1 to the column. Centrifuge at 12000 rpm (13,400 × g) for 30-60 sec. Discard the waste liquid and return the column to the collection tube. 
 7. Add 600 μL of Buffer PW2 (check if it has been diluted with anhydrous ethanol) to the column. Centrifuge at 12000 rpm (13,400 × g) for 30-60 sec. Discard the waste liquid and return the column to the collection tube. Repeat this step once. 
 8. Place the column back into the collection tube. Centrifuge at 12000 rpm (13,400 × g) for 1 min to dry the column and remove any residual wash liquid.
- 9. Place the column in a new sterile 1.5 mL centrifuge tube. Add 30-100 μL of sterile ddH2O to the center of the column membrane. Incubate at room temperature for 2 min, then centrifuge at 12000 rpm (13,400 × g) for 1 min to elute the DNA
+9. Place the column in a new sterile 1.5 mL centrifuge tube. Add 30-100 μL of sterile ddH2O to the center of the column membrane. Incubate at room temperature for 2 min, then centrifuge at 12000 rpm (13,400 × g) for 1 min to elute the DNA
 
 ##9.	Performance verification and Fluorescence value determination
 
@@ -213,7 +214,7 @@ Then immediately return the cells to ice for 2-3 minutes.
 
 ##10.   Microplate reader detection
 
-1.	Plug in the power and turn on the power switch of the ELISA reader (press the switch key onthe back of the instrument), and turn on the switch connecting to the computer.
+1.  Plug in the power and turn on the power switch of the ELISA reader (press the switch key onthe back of the instrument), and turn on the switch connecting to the computer.
 2.	Open the sofiware and enter the main operating interface of the software.
 3.	Select "Start Measurement" and choose the corresponding measurement project and the layout of the plate being used.
 4.	Click "OK", then click the "Start" button.
