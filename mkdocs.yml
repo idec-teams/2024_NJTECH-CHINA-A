@@ -47,6 +47,7 @@ nav:
       - Design: project/design.md
       - Results: project/results.md
       - Supplement: project/supplement.md
+      - Protocol: project/protocol.md
   - Documentation:
       - Lab notebook: documentation/notebook.md
       - Download Report: documentation/report.md
