@@ -90,6 +90,7 @@ After nucleic acid gel electrophoresis was verified, the bands were observed und
 
 ##5.	Ligation of vector and target gene
 *	Construct plasmid using the target gene and the vector using Gibson assembly.
+  
 <center>Table 3 Plasmid ligation system</center>
 |Component|Volume|
 |:--|:--|
@@ -107,7 +108,9 @@ After nucleic acid gel electrophoresis was verified, the bands were observed und
 
 ##6.	Chemical Transformation of E. coli with Recombinant Plasmid
 *	Receptive E. coli cells are transformed with a recombinant plasmid containing target gene.
+  
 <center>Table 4 Chemical conversion system</center>
+
 |Component|Volume|
 |:--|:--|
 |Receptive E. coli cell|100µL| 
@@ -116,13 +119,13 @@ After nucleic acid gel electrophoresis was verified, the bands were observed und
 
 *	Steps:
   (The following procedures involving bacteria should be conducted in a biosafety cabinet)
- 	1.	Add10μl of the recombinant plasmid DNA to100 μl of competent E. coli cells, and place it on ice for 30 minutes.
+1.	Add10μl of the recombinant plasmid DNA to100 μl of competent E. coli cells, and place it on ice for 30 minutes.
 2.	After 30 minutes on ice, subject the cells to a heat shock at 42°C for 90 seconds.
 Then immediately return the cells to ice for 2-3 minutes.
 3.	Add 800 µL of antibiotic-free LB liquid medium to the plasmid-added sensory state and incubate for 1 h at 37°C in a shaker
 4.	Centrifuge the cells at a low speed to pellet the cells.
 5.	Discard 800 μl of  the supernatant
-6.	6.	Resuspend the cell pellet in the remaining 100 μl of medium by pipetting up and down.
+6.	Resuspend the cell pellet in the remaining 100 μl of medium by pipetting up and down.
 7.	Spread the mixture evenly onto LB agar plates containing antibiotics using a spreader.
 8.	Incubate the plates overnight at 37°C.
 
@@ -144,6 +147,7 @@ Then immediately return the cells to ice for 2-3 minutes.
 2.	Place the PCR tubes in a thermal cycler and run the program:
 
 <center> Table 6 Reaction procedure</center>
+
 |Cycle steps|Temperature|Time|Cycles|
 |:--|:--|:--|:--|
 |Predegeneration|95℃| 10 min| |
@@ -155,8 +159,8 @@ Then immediately return the cells to ice for 2-3 minutes.
 3.	Conduct agarose gel electrophoresis on the PCR products, and check if the result is as expected 
 
 ##8.	Plasmid extraction
-*FastPure® Plasmid Mini Kit (Vazyme) was used for rapid purification and extraction of plasmid DNA.
-*Steps: 
+* FastPure® Plasmid Mini Kit (Vazyme) was used for rapid purification and extraction of plasmid DNA.
+* Steps: 
 1. Label and transfer 2-4 mL of bacterial culture to a centrifuge tube under aseptic conditions. Balance the tube for mass distribution, place it symmetrically in the centrifuge, check for proper sealing, set the speed to 12000 rpm for 1 min,discard the culture medium, invert the tube on absorbent paper to remove residual liquid, and retain the pellet. 
 2. Add 250 μL of Buffer P1 (Buffer P1 with RNase A added) to the centrifuge tube containing the bacterial pellet. Mix thoroughly using a pipette or vortex oscillation. 
 3. Add 250 μL of Buffer P2 to the mixture from step 2. Gently invert the tube 8-10 times to ensure thorough lysis of the bacterial cells until a clear solution is formed. 
@@ -171,6 +175,7 @@ Then immediately return the cells to ice for 2-3 minutes.
 *	Transformed E. coli colonies are inoculated into liquid culture for plasmid extraction and subsequent DNA sequencing. After successful sequencing, it is used for induction experiments.
 
 <center>Table 7 Configuration system</center>
+
 |Component|Volume|
 |:--|:--|
 |Sugar solution of each substrate|100g/L| 
