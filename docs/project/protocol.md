@@ -127,7 +127,7 @@ After nucleic acid gel electrophoresis was verified, the bands were observed und
 
 *	Steps:
 
-  (The following procedures involving bacteria should be conducted in a biosafety cabinet)
+(The following procedures involving bacteria should be conducted in a biosafety cabinet)
 1.	Add10μl of the recombinant plasmid DNA to100 μl of competent E. coli cells, and place it on ice for 30 minutes.
 2.	After 30 minutes on ice, subject the cells to a heat shock at 42°C for 90 seconds.
 Then immediately return the cells to ice for 2-3 minutes.
