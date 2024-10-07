@@ -86,6 +86,6 @@ The main focus is on enzyme engineering, microbial metabolic engineering, and sy
 ###Yang Sun
 I am focusing on three key scientific issues: the discovery, modification, and efficient use of microorganisms and enzymes, this approach begins with the exploration and evaluation of microbial gene functions, rational enzyme engineering, and directed regulation of microbial metabolism. Through the interdisciplinary integration of bioinformatics, genetic engineering, enzyme engineering, synthetic biology, and fermentation engineering, a multi-level system based on synthetic biology is established. This system encompasses functional modules, metabolic networks, and precise regulation, aiming to create high-yield industrial microbial strains with independent national intellectual property rights.
 
- ![Image](img/zhouliying.jpg)
+ ![Image](img/zhuliying.jpg)
 ###Liying Zhu
 She is an associate professor at Nanjing Tech University. Mainly engaged in teaching and research in the fields of biocatalysis, biomaterials, and heavy metal treatment.
