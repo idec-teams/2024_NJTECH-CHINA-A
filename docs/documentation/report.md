@@ -1,6 +1,6 @@
 ##Directed evolution of the alsR transcription factor to construct a D-allose biosensor
 
-Chenxi Lu, Mengyu Li, Jie Zhang, Yuting Lu, Lin Li, Ying Zhang, Yufan Zhou, Yuan Fang, Yi Cao, Yongye Wu, Jiaqi Zhang, Zeyu Yan, Gongrui Meng, Rui Long, Li Yang, Wei Liu*, Yang Sun, Liying Zhu, Ling Jiang*\
+Chenxi Lu, Mengyu Li, Jie Zhang, Yuting Lu, Lin Li, Ying Zhang, Yufan Zhou, Yuan Fang, Yi Cao, Yongye Wu, Jiaqi Zhang, Zeyu Yan, Gongrui Meng, Rui Long, Li Yang, Wei Liu*, Yang Sun, Liying Zhu, Ling Jiang\*
 
 *-Corresponding authors contributed equally
 
