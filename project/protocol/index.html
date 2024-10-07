@@ -1,0 +1,1372 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../supplement/">
+      
+      
+        <link rel="next" href="../../documentation/notebook/">
+      
+      
+      <link rel="icon" href="../../img/idec-wiki-logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.39">
+    
+    
+      
+        <title>Protocol - iDEC 2024 | NJTECH-CHINA-A</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8c3ca2c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="rgb(68,-82,-150)" data-md-color-accent="rgb(157,-168,-223)">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#protocol" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="iDEC 2024 | NJTECH-CHINA-A" class="md-header__button md-logo" aria-label="iDEC 2024 | NJTECH-CHINA-A" data-md-component="logo">
+      
+  <img src="../../img/idec-wiki-logo-white-bg.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            iDEC 2024 | NJTECH-CHINA-A
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Protocol
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/idec-teams/2024_NJTECH-CHINA-A" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="iDEC 2024 | NJTECH-CHINA-A" class="md-nav__button md-logo" aria-label="iDEC 2024 | NJTECH-CHINA-A" data-md-component="logo">
+      
+  <img src="../../img/idec-wiki-logo-white-bg.png" alt="logo">
+
+    </a>
+    iDEC 2024 | NJTECH-CHINA-A
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/idec-teams/2024_NJTECH-CHINA-A" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Project
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Project
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../design/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Design
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../results/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Results
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../supplement/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Supplement
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Protocol
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Protocol
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-pcr-of-vector-and-target-gene" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. PCR of vector and target gene
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-error-prone-pcr" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Error-prone PCR
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-agarose-gel-electrophoresis" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Agarose Gel Electrophoresis
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-dna-fragment-gel-recovery" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. DNA Fragment Gel Recovery
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-ligation-of-vector-and-target-gene" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Ligation of vector and target gene
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-chemical-transformation-of-e-coli-with-recombinant-plasmid" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Chemical Transformation of E. coli with Recombinant Plasmid
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-colony-pcr-and-verification-of-e-coli-transformation" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Colony PCR and Verification of E. coli Transformation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-plasmid-extraction" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Plasmid extraction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-performance-verification-and-fluorescence-value-determination" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Performance verification and Fluorescence value determination
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-microplate-reader-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Microplate reader detection
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Documentation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Documentation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentation/notebook/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lab notebook
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentation/report/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Download Report
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../team/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Team
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-pcr-of-vector-and-target-gene" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. PCR of vector and target gene
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-error-prone-pcr" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Error-prone PCR
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-agarose-gel-electrophoresis" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Agarose Gel Electrophoresis
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-dna-fragment-gel-recovery" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. DNA Fragment Gel Recovery
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-ligation-of-vector-and-target-gene" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Ligation of vector and target gene
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-chemical-transformation-of-e-coli-with-recombinant-plasmid" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Chemical Transformation of E. coli with Recombinant Plasmid
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-colony-pcr-and-verification-of-e-coli-transformation" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Colony PCR and Verification of E. coli Transformation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-plasmid-extraction" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Plasmid extraction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-performance-verification-and-fluorescence-value-determination" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Performance verification and Fluorescence value determination
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-microplate-reader-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Microplate reader detection
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="protocol">Protocol</h1>
+<h2 id="1-pcr-of-vector-and-target-gene">1.    PCR of vector and target gene</h2>
+<ul>
+<li>Amplify the vector, increasing its amount to make it detectable and analyzable.
+<center>Table 1 Reaction system</center></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Component</th>
+<th style="text-align: left;">Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Phanta SE Super-Fidelity DNA Polymerase</td>
+<td style="text-align: left;">1µL</td>
+</tr>
+<tr>
+<td style="text-align: left;">Phanta SE Buffer</td>
+<td style="text-align: left;">25ul</td>
+</tr>
+<tr>
+<td style="text-align: left;">Template of vector</td>
+<td style="text-align: left;">XµL</td>
+</tr>
+<tr>
+<td style="text-align: left;">Forward primer for vector</td>
+<td style="text-align: left;">2µL</td>
+</tr>
+<tr>
+<td style="text-align: left;">Reverse primer for vector</td>
+<td style="text-align: left;">2µL</td>
+</tr>
+<tr>
+<td style="text-align: left;">Sterilized water</td>
+<td style="text-align: left;">Up to 50µL</td>
+</tr>
+</tbody>
+</table>
+<p><center>Table 2 Reaction procedure</center></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Cycle steps</th>
+<th style="text-align: left;">Temperature</th>
+<th style="text-align: left;">Time</th>
+<th style="text-align: left;">Cycles</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Predegeneration</td>
+<td style="text-align: left;">98℃</td>
+<td style="text-align: left;">30 sec</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Transgender</td>
+<td style="text-align: left;">98℃</td>
+<td style="text-align: left;">10 sec</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Annealing</td>
+<td style="text-align: left;">Tm</td>
+<td style="text-align: left;">5 sec</td>
+<td style="text-align: left;">25-35</td>
+</tr>
+<tr>
+<td style="text-align: left;">Extension</td>
+<td style="text-align: left;">72℃</td>
+<td style="text-align: left;">5 - 10 sec/kb</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Completely stretch</td>
+<td style="text-align: left;">72℃</td>
+<td style="text-align: left;">1 min</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>
+<p>Steps:</p>
+</li>
+<li>
+<p>Thaw the components on ice and add each group as needed to dispense the PCR reaction system.</p>
+</li>
+<li>Gently centrifuge and mix well. </li>
+<li>Transfer the PCR tubes to the PCR instrument, set the parameters, and start the polymerase chain reaction.</li>
+<li>Return the reagents to 4℃ or 12℃ for storage immediately after us.</li>
+</ul>
+<h2 id="2-error-prone-pcr">2.    Error-prone PCR</h2>
+<ul>
+<li>Amplify the vector, increasing its amount to make it detectable and analyzable.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Component</th>
+<th style="text-align: left;">Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Taq enzyme</td>
+<td style="text-align: left;">25μl</td>
+</tr>
+<tr>
+<td style="text-align: left;">Template</td>
+<td style="text-align: left;">1μl</td>
+</tr>
+<tr>
+<td style="text-align: left;">Primer</td>
+<td style="text-align: left;">Forward 2μl Reverse 2μl</td>
+</tr>
+<tr>
+<td style="text-align: left;">Sterile water</td>
+<td style="text-align: left;">Refill to 50μl</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Refer to the table below to set up a random mutation PCR reaction system</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Reagents</th>
+<th style="text-align: left;">Final concentration</th>
+<th style="text-align: left;">Volume</th>
+<th style="text-align: left;">Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Sterile water</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">(13.2-x)μl</td>
+<td style="text-align: left;">(33-y)μl</td>
+</tr>
+<tr>
+<td style="text-align: left;">RandomMut buffer (10X)</td>
+<td style="text-align: left;">1X</td>
+<td style="text-align: left;">2μl</td>
+<td style="text-align: left;">5μl</td>
+</tr>
+<tr>
+<td style="text-align: left;">Mutation enhancer (10X)</td>
+<td style="text-align: left;">1X</td>
+<td style="text-align: left;">2ul</td>
+<td style="text-align: left;">5ul</td>
+</tr>
+<tr>
+<td style="text-align: left;">dNTP (2.5mM each)</td>
+<td style="text-align: left;">0.25mM</td>
+<td style="text-align: left;">2μl</td>
+<td style="text-align: left;">5μl</td>
+</tr>
+<tr>
+<td style="text-align: left;">template DNA</td>
+<td style="text-align: left;">0.2pg/μl-20ng/μl</td>
+<td style="text-align: left;">xμl</td>
+<td style="text-align: left;">yu</td>
+</tr>
+<tr>
+<td style="text-align: left;">Primer mixture (10μM each)</td>
+<td style="text-align: left;">0.2μM each</td>
+<td style="text-align: left;">0.4μl</td>
+<td style="text-align: left;">1μl</td>
+</tr>
+<tr>
+<td style="text-align: left;">RandomMut DNA polymerase</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">0.4μl</td>
+<td style="text-align: left;">1μl</td>
+</tr>
+<tr>
+<td style="text-align: left;">Total Volume</td>
+<td style="text-align: left;">-</td>
+<td style="text-align: left;">20μl</td>
+<td style="text-align: left;">50μl</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Mutation rate&gt;</th>
+<th style="text-align: left;">Mutations/kb</th>
+<th style="text-align: left;">Target amount/20ul</th>
+<th style="text-align: left;">Target concentration</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Low</td>
+<td style="text-align: left;">0-4.5</td>
+<td style="text-align: left;">20-400ng</td>
+<td style="text-align: left;">1-20ng/μl</td>
+</tr>
+<tr>
+<td style="text-align: left;">Medium</td>
+<td style="text-align: left;">4.5-9</td>
+<td style="text-align: left;">2-20ng</td>
+<td style="text-align: left;">0.1-1ng/μl</td>
+</tr>
+<tr>
+<td style="text-align: left;">High</td>
+<td style="text-align: left;">9-16</td>
+<td style="text-align: left;">40pg-2ng</td>
+<td style="text-align: left;">2-100pg/μl</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Cycle steps</th>
+<th style="text-align: left;">Temperature</th>
+<th style="text-align: left;">Time</th>
+<th style="text-align: left;">Cycles</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Predegeneration</td>
+<td style="text-align: left;">94℃</td>
+<td style="text-align: left;">3 min</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Transgender</td>
+<td style="text-align: left;">94℃</td>
+<td style="text-align: left;">30 sec</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Annealing</td>
+<td style="text-align: left;">Tm</td>
+<td style="text-align: left;">30 sec</td>
+<td style="text-align: left;">25-30</td>
+</tr>
+<tr>
+<td style="text-align: left;">Extension</td>
+<td style="text-align: left;">72℃</td>
+<td style="text-align: left;">1min/kb</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Completely stretch</td>
+<td style="text-align: left;">72℃</td>
+<td style="text-align: left;">10 min</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>
+<p>Steps:</p>
+</li>
+<li>
+<p>Ensure the accurate addition of PCR reaction system and reagents, including template DNA, primers, dNTP, etc. The concentration and proportion of these components should be precise, without missing or adding them incorrectly</p>
+</li>
+<li>During PCR amplification, setting the annealing temperature is one of the most important steps in the PCR cycle.</li>
+<li>The cycling process should ensure that the PCR instrument is sufficiently cooled and operates normally to avoid non-specific products.</li>
+</ul>
+<h2 id="3-agarose-gel-electrophoresis">3.    Agarose Gel Electrophoresis</h2>
+<ul>
+<li>Separate DNA fragments of different sizes and compare their positions with the marker to check whether the products are the desired ones.</li>
+<li>
+<p>Steps:</p>
+</li>
+<li>
+<p>Place the gel tray in the proper position in the gel box, and place the comb in the correct position.</p>
+</li>
+<li>Mix agarose and 1 × TAE buffer in a ratio of 0.8g to 100mL as needed, pour into a 250mL conical flask, heat and boil the flask in a microwave until the agarose is completely dissolved.</li>
+<li>Add staining solution to the solution in a ratio of 2 µ LGel RED: 100mL 1 × TAE.</li>
+<li>Pour the solution into the tray.</li>
+<li>Allow the gel cool and solidify, then pull out the comb.</li>
+<li>Place the gel into the electrophoresis apparatus, and enough 1 × TAE buffer solution is required.</li>
+<li>Add 10 x DNA loading buffer to the sample and mix, then transfer the mixture into the gel hole with a pipette.</li>
+<li>Turn on the power and run at 120V for 20 minutes.</li>
+</ul>
+<h2 id="4-dna-fragment-gel-recovery">4.    DNA Fragment Gel Recovery</h2>
+<p>After nucleic acid gel electrophoresis was verified, the bands were observed under UV light to see if they were the same size as the target fragment. The target fragments were recovered according to the operation of a DNA purification kit (FastPure○R Gel DNA Extraction Mini Kit, Nanjing Novozymes Bioscience and Technology Co., Ltd.), and stored at -20℃ in a low-temperature refrigerator for spare use.</p>
+<h2 id="5-ligation-of-vector-and-target-gene">5.    Ligation of vector and target gene</h2>
+<ul>
+<li>Construct plasmid using the target gene and the vector using Gibson assembly.</li>
+</ul>
+<p><center>Table 3 Plasmid ligation system</center></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Component</th>
+<th style="text-align: left;">Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Sterilized water</td>
+<td style="text-align: left;">Up to 10µL</td>
+</tr>
+<tr>
+<td style="text-align: left;">2x CE Mix</td>
+<td style="text-align: left;">5µL</td>
+</tr>
+<tr>
+<td style="text-align: left;">Vector sample</td>
+<td style="text-align: left;">Calculate according to instructions</td>
+</tr>
+<tr>
+<td style="text-align: left;">Target gene sample</td>
+<td style="text-align: left;">Calculate according to instructions</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>
+<p>Steps:</p>
+</li>
+<li>
+<p>Calculate the sample volumes of the target gene and the vector according to the formulas: Target gene volume = bp x 0.04 / concentration, Vector volume = bp x 0.02 / concentration.</p>
+</li>
+<li>Calculate the volume of sterilized water required to make up to 10 μl.</li>
+<li>Add the sterilized water, 2x CE Mix, vector sample and Target gene sample into the EP tube.</li>
+<li>Put the EP tube in a centrifuge for centrifugation.</li>
+<li>Put the EP tube in the PCR instrument, set it to 50 ˚C for 15 or 30 minutes.</li>
+</ul>
+<h2 id="6-chemical-transformation-of-e-coli-with-recombinant-plasmid">6.    Chemical Transformation of E. coli with Recombinant Plasmid</h2>
+<ul>
+<li>Receptive E. coli cells are transformed with a recombinant plasmid containing target gene.</li>
+</ul>
+<p><center>Table 4 Chemical conversion system</center></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Component</th>
+<th style="text-align: left;">Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Receptive E. coli cell</td>
+<td style="text-align: left;">100µL</td>
+</tr>
+<tr>
+<td style="text-align: left;">Recombinant plasmid</td>
+<td style="text-align: left;">10µL</td>
+</tr>
+<tr>
+<td style="text-align: left;">LB liquid medium</td>
+<td style="text-align: left;">800µL</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Steps:</li>
+</ul>
+<p>(The following procedures involving bacteria should be conducted in a biosafety cabinet)</p>
+<ol>
+<li>Add10μl of the recombinant plasmid DNA to100 μl of competent E. coli cells, and place it on ice for 30 minutes.</li>
+<li>After 30 minutes on ice, subject the cells to a heat shock at 42°C for 90 seconds.
+Then immediately return the cells to ice for 2-3 minutes.</li>
+<li>Add 800 µL of antibiotic-free LB liquid medium to the plasmid-added sensory state and incubate for 1 h at 37°C in a shaker</li>
+<li>Centrifuge the cells at a low speed to pellet the cells.</li>
+<li>Discard 800 μl of  the supernatant</li>
+<li>Resuspend the cell pellet in the remaining 100 μl of medium by pipetting up and down.</li>
+<li>Spread the mixture evenly onto LB agar plates containing antibiotics using a spreader.</li>
+<li>Incubate the plates overnight at 37°C.</li>
+</ol>
+<h2 id="7-colony-pcr-and-verification-of-e-coli-transformation">7.    Colony PCR and Verification of E. coli Transformation</h2>
+<ul>
+<li>Verifying the presence of the recombinant plasmid in transformed E. coli colonies using colony PCR and subsequent electrophoresis.</li>
+</ul>
+<p><center>Table 5 Reaction system</center></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Component</th>
+<th style="text-align: left;">Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Upstream primer</td>
+<td style="text-align: left;">0.2µL</td>
+</tr>
+<tr>
+<td style="text-align: left;">Downstream primer</td>
+<td style="text-align: left;">0.2µL</td>
+</tr>
+<tr>
+<td style="text-align: left;">Sterilized water</td>
+<td style="text-align: left;">Up to 5µL</td>
+</tr>
+<tr>
+<td style="text-align: left;">2×Rapid Taq  Mix</td>
+<td style="text-align: left;">5µL</td>
+</tr>
+<tr>
+<td style="text-align: left;">Mud or liquid of bacteria</td>
+<td style="text-align: left;">Xul</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Steps:</li>
+</ul>
+<p>(The following procedures involving bacteria should be conducted in a biosafety cabinet)</p>
+<ol>
+<li>Using a sterile toothpick or pipette tip, pick a small amount of bacterial colony and mix it with the PCR reaction mixture.  </li>
+<li>Place the PCR tubes in a thermal cycler and run the program:</li>
+</ol>
+<p><center> Table 6 Reaction procedure</center></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Cycle steps</th>
+<th style="text-align: left;">Temperature</th>
+<th style="text-align: left;">Time</th>
+<th style="text-align: left;">Cycles</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Predegeneration</td>
+<td style="text-align: left;">95℃</td>
+<td style="text-align: left;">10 min</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Transgender</td>
+<td style="text-align: left;">95℃</td>
+<td style="text-align: left;">15 sec</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Annealing</td>
+<td style="text-align: left;">Tm</td>
+<td style="text-align: left;">15 sec</td>
+<td style="text-align: left;">25-35</td>
+</tr>
+<tr>
+<td style="text-align: left;">Extension</td>
+<td style="text-align: left;">72℃</td>
+<td style="text-align: left;">15 - 30 sec/kb</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Completely stretch</td>
+<td style="text-align: left;">72℃</td>
+<td style="text-align: left;">5 min</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Conduct agarose gel electrophoresis on the PCR products, and check if the result is as expected </li>
+</ol>
+<h2 id="8-plasmid-extraction">8.    Plasmid extraction</h2>
+<ul>
+<li>FastPure® Plasmid Mini Kit (Vazyme) was used for rapid purification and extraction of plasmid DNA.</li>
+<li>
+<p>Steps:</p>
+</li>
+<li>
+<p>Label and transfer 2-4 mL of bacterial culture to a centrifuge tube under aseptic conditions. Balance the tube for mass distribution, place it symmetrically in the centrifuge, check for proper sealing, set the speed to 12000 rpm for 1 min,discard the culture medium, invert the tube on absorbent paper to remove residual liquid, and retain the pellet. </p>
+</li>
+<li>Add 250 μL of Buffer P1 (Buffer P1 with RNase A added) to the centrifuge tube containing the bacterial pellet. Mix thoroughly using a pipette or vortex oscillation. </li>
+<li>Add 250 μL of Buffer P2 to the mixture from step 2. Gently invert the tube 8-10 times to ensure thorough lysis of the bacterial cells until a clear solution is formed. </li>
+<li>Add 350 μL of Buffer P3 to the mixture from step 3. Immediately invert the tube gently 8-10 times to thoroughly neutralize the solution with Buffer P2. A white flocculent precipitate should appear. Centrifuge at 12000 rpm (13,400 × g) for 10 min.</li>
+<li>Place the FastPure DNA Mini Columns in a 2 mL Collection Tube. Carefully transfer the supernatant from step 4 to the column using a pipette, being careful not to aspirate the precipitate. Centrifuge at 12000 rpm (13,400 × g) for 30-60 sec. Discard the waste liquid from the collection tube and return the column to the collection tube.</li>
+<li>Add 500 μL of Buffer PW1 to the column. Centrifuge at 12000 rpm (13,400 × g) for 30-60 sec. Discard the waste liquid and return the column to the collection tube. </li>
+<li>Add 600 μL of Buffer PW2 (check if it has been diluted with anhydrous ethanol) to the column. Centrifuge at 12000 rpm (13,400 × g) for 30-60 sec. Discard the waste liquid and return the column to the collection tube. Repeat this step once. </li>
+<li>Place the column back into the collection tube. Centrifuge at 12000 rpm (13,400 × g) for 1 min to dry the column and remove any residual wash liquid.</li>
+<li>Place the column in a new sterile 1.5 mL centrifuge tube. Add 30-100 μL of sterile ddH2O to the center of the column membrane. Incubate at room temperature for 2 min, then centrifuge at 12000 rpm (13,400 × g) for 1 min to elute the DNA</li>
+</ul>
+<h2 id="9-performance-verification-and-fluorescence-value-determination">9.    Performance verification and Fluorescence value determination</h2>
+<ul>
+<li>Transformed E. coli colonies are inoculated into liquid culture for plasmid extraction and subsequent DNA sequencing. After successful sequencing, it is used for induction experiments.</li>
+</ul>
+<p><center>Table 7 Configuration system</center></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Component</th>
+<th style="text-align: left;">Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Sugar solution of each substrate</td>
+<td style="text-align: left;">100g/L</td>
+</tr>
+<tr>
+<td style="text-align: left;">Fluid medium</td>
+<td style="text-align: left;">30ml</td>
+</tr>
+<tr>
+<td style="text-align: left;">Two-plasmid bacterial fluid</td>
+<td style="text-align: left;">2ml</td>
+</tr>
+<tr>
+<td style="text-align: left;">Antibiotic</td>
+<td style="text-align: left;">100μl</td>
+</tr>
+<tr>
+<td style="text-align: left;">PBS buffer</td>
+<td style="text-align: left;">10ml</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>
+<p>Steps:</p>
+</li>
+<li>
+<p>The concentration of each sugar solution is 100g/L, and after it is completely dissolved, it is filtered through a filter membrane in a biological safety cabinet.</p>
+</li>
+<li>Add 50ul of ampicillin and streptomycin to the liquid medium and shake well.</li>
+<li>Add 2ml of the prepared bacterial solution containing the double plasmid to the liquid medium and shake well.</li>
+<li>Load the medium containing the bacterial solution and the two antibiotics into 10 shake tubes , and then label the type of substrate to be added, the temperature of the shaker to be placed in, and the concentration to be prepared, each temperature is labeled with 5 tubes according to the concentration gradient.</li>
+<li>Based on the concentration gradient, calculate the volume of sugar that needs to be added.</li>
+<li>According to the labeled information and the calculated volume, aspirate the same volume as the volume of substrate to be added the medium is then added to the substrate. Make sure that the total volume of 3 ml in each shake tube remains the same after the substrate is added.</li>
+<li>Place the shake tubes in a shaker at 25 °C and 37 °C for 16-24 h.</li>
+<li>Take 2 ml of the bacterial solution for centrifugation from each tube and then add 1ml PBS buffer and wash 2 times to reduce interference from background fluorescence.</li>
+<li>the fluorescence of the solution at an excitation wavelength of 488 nm and an emission wavelength of 518 nm was measured with a microplate reader value.</li>
+</ul>
+<h2 id="10-microplate-reader-detection">10.   Microplate reader detection</h2>
+<ol>
+<li>Plug in the power and turn on the power switch of the ELISA reader (press the switch key onthe back of the instrument), and turn on the switch connecting to the computer.</li>
+<li>Open the sofiware and enter the main operating interface of the software.</li>
+<li>Select "Start Measurement" and choose the corresponding measurement project and the layout of the plate being used.</li>
+<li>Click "OK", then click the "Start" button.</li>
+<li>At this point, the instrument is in measurement mode, and the operator should not perform any other operations.</li>
+<li>When the measurement is complete, the test results will be displayed on the monitor. Select the option to save the measurement data.</li>
+<li>Turn off the power of the ELISA reader.</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 iDEC. CC-BY-4.0 | The International Directed Evolution Competition (iDEC) is a Scottish Charitable Incorporate Organisation (SCIO), registered in Scotland, with charity number：SC050826
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.525ec568.min.js"></script>
+      
+        <script src="../../javascripts/config.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
+      
+        <script src="../../javascripts/tables.js"></script>
+      
+    
+  </body>
+</html>
