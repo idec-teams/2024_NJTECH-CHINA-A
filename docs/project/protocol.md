@@ -69,13 +69,16 @@
 |Completely stretch|72℃|10 min|  |
 
 *	Steps:
+  
 1.	Ensure the accurate addition of PCR reaction system and reagents, including template DNA, primers, dNTP, etc. The concentration and proportion of these components should be precise, without missing or adding them incorrectly
 2.	During PCR amplification, setting the annealing temperature is one of the most important steps in the PCR cycle.
 3.	The cycling process should ensure that the PCR instrument is sufficiently cooled and operates normally to avoid non-specific products.
 
 ##3.	Agarose Gel Electrophoresis
+
 *	Separate DNA fragments of different sizes and compare their positions with the marker to check whether the products are the desired ones.
 *	Steps:
+  
 1.	Place the gel tray in the proper position in the gel box, and place the comb in the correct position.
 2.	Mix agarose and 1 × TAE buffer in a ratio of 0.8g to 100mL as needed, pour into a 250mL conical flask, heat and boil the flask in a microwave until the agarose is completely dissolved.
 3.	Add staining solution to the solution in a ratio of 2 µ LGel RED: 100mL 1 × TAE.
@@ -90,6 +93,7 @@
 After nucleic acid gel electrophoresis was verified, the bands were observed under UV light to see if they were the same size as the target fragment. The target fragments were recovered according to the operation of a DNA purification kit (FastPure○R Gel DNA Extraction Mini Kit, Nanjing Novozymes Bioscience and Technology Co., Ltd.), and stored at -20℃ in a low-temperature refrigerator for spare use.
 
 ##5.	Ligation of vector and target gene
+
 *	Construct plasmid using the target gene and the vector using Gibson assembly.
   
 <center>Table 3 Plasmid ligation system</center>
@@ -102,6 +106,7 @@ After nucleic acid gel electrophoresis was verified, the bands were observed und
 |Target gene sample|Calculate according to instructions| 
 
 *	Steps:
+
 1.	Calculate the sample volumes of the target gene and the vector according to the formulas: Target gene volume = bp x 0.04 / concentration, Vector volume = bp x 0.02 / concentration.
 2.	Calculate the volume of sterilized water required to make up to 10 μl.
 3.	Add the sterilized water, 2x CE Mix, vector sample and Target gene sample into the EP tube.
@@ -109,6 +114,7 @@ After nucleic acid gel electrophoresis was verified, the bands were observed und
 5.	Put the EP tube in the PCR instrument, set it to 50 ˚C for 15 or 30 minutes.
 
 ##6.	Chemical Transformation of E. coli with Recombinant Plasmid
+
 *	Receptive E. coli cells are transformed with a recombinant plasmid containing target gene.
   
 <center>Table 4 Chemical conversion system</center>
@@ -120,6 +126,7 @@ After nucleic acid gel electrophoresis was verified, the bands were observed und
 |LB liquid medium|800µL| 
 
 *	Steps:
+
   (The following procedures involving bacteria should be conducted in a biosafety cabinet)
 1.	Add10μl of the recombinant plasmid DNA to100 μl of competent E. coli cells, and place it on ice for 30 minutes.
 2.	After 30 minutes on ice, subject the cells to a heat shock at 42°C for 90 seconds.
@@ -132,9 +139,11 @@ Then immediately return the cells to ice for 2-3 minutes.
 8.	Incubate the plates overnight at 37°C.
 
 ##7.	Colony PCR and Verification of E. coli Transformation
+
 *	Verifying the presence of the recombinant plasmid in transformed E. coli colonies using colony PCR and subsequent electrophoresis.
 
 <center>Table 5 Reaction system</center>
+
 |Component|Volume|
 |:--|:--|
 |Upstream primer|0.2µL| 
@@ -144,6 +153,7 @@ Then immediately return the cells to ice for 2-3 minutes.
 |Mud or liquid of bacteria|Xul| 
 
 *	Steps:
+
 (The following procedures involving bacteria should be conducted in a biosafety cabinet)
 1.	Using a sterile toothpick or pipette tip, pick a small amount of bacterial colony and mix it with the PCR reaction mixture.
 2.	Place the PCR tubes in a thermal cycler and run the program:
@@ -161,8 +171,10 @@ Then immediately return the cells to ice for 2-3 minutes.
 3.	Conduct agarose gel electrophoresis on the PCR products, and check if the result is as expected 
 
 ##8.	Plasmid extraction
+
 * FastPure® Plasmid Mini Kit (Vazyme) was used for rapid purification and extraction of plasmid DNA.
-* Steps: 
+* Steps:
+
 1. Label and transfer 2-4 mL of bacterial culture to a centrifuge tube under aseptic conditions. Balance the tube for mass distribution, place it symmetrically in the centrifuge, check for proper sealing, set the speed to 12000 rpm for 1 min,discard the culture medium, invert the tube on absorbent paper to remove residual liquid, and retain the pellet. 
 2. Add 250 μL of Buffer P1 (Buffer P1 with RNase A added) to the centrifuge tube containing the bacterial pellet. Mix thoroughly using a pipette or vortex oscillation. 
 3. Add 250 μL of Buffer P2 to the mixture from step 2. Gently invert the tube 8-10 times to ensure thorough lysis of the bacterial cells until a clear solution is formed. 
@@ -174,6 +186,7 @@ Then immediately return the cells to ice for 2-3 minutes.
  9. Place the column in a new sterile 1.5 mL centrifuge tube. Add 30-100 μL of sterile ddH2O to the center of the column membrane. Incubate at room temperature for 2 min, then centrifuge at 12000 rpm (13,400 × g) for 1 min to elute the DNA
 
 ##9.	Performance verification and Fluorescence value determination
+
 *	Transformed E. coli colonies are inoculated into liquid culture for plasmid extraction and subsequent DNA sequencing. After successful sequencing, it is used for induction experiments.
 
 <center>Table 7 Configuration system</center>
@@ -187,6 +200,7 @@ Then immediately return the cells to ice for 2-3 minutes.
 |PBS buffer|10ml| 
 
 *	Steps:
+
 1.	The concentration of each sugar solution is 100g/L, and after it is completely dissolved, it is filtered through a filter membrane in a biological safety cabinet.
 2.	Add 50ul of ampicillin and streptomycin to the liquid medium and shake well.
 3.	Add 2ml of the prepared bacterial solution containing the double plasmid to the liquid medium and shake well.
@@ -198,6 +212,7 @@ Then immediately return the cells to ice for 2-3 minutes.
 9.	the fluorescence of the solution at an excitation wavelength of 488 nm and an emission wavelength of 518 nm was measured with a microplate reader value.
 
 ##10.   Microplate reader detection
+
 1.	Plug in the power and turn on the power switch of the ELISA reader (press the switch key onthe back of the instrument), and turn on the switch connecting to the computer.
 2.	Open the sofiware and enter the main operating interface of the software.
 3.	Select "Start Measurement" and choose the corresponding measurement project and the layout of the plate being used.
