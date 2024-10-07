@@ -154,9 +154,9 @@ Then immediately return the cells to ice for 2-3 minutes.
 
 *	Steps:
 
-(The following procedures involving bacteria should be conducted in a biosafety cabinet)
-1.	Using a sterile toothpick or pipette tip, pick a small amount of bacterial colony and mix it with the PCR reaction mixture.
-2.	Place the PCR tubes in a thermal cycler and run the program:
+(The following procedures involving bacteria should be conducted in a biosafety cabinet)  
+1.Using a sterile toothpick or pipette tip, pick a small amount of bacterial colony and mix it with the PCR reaction mixture.  
+2.Place the PCR tubes in a thermal cycler and run the program:
 
 <center> Table 6 Reaction procedure</center>
 
